@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    padding: 20px;
+}
+
+/* Parte stanga */
+.left {
+    margin-right: 20px;
+}
+
+.profileText {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profileimg img {
+    width: 200px;
+    height: 180px;
+    border-radius: 10%;
+}
+
+
+.profil-anim {
+    transition: transform 0.5s ease; 
+}
+
+#change-photo-button {
+    margin-left: 40px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    background-color: #007bff; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+#change-photo-button:hover {
+    background-color: #0056b3; 
+}
+
+
+.profileimg:hover .profil-anim {
+    transform: rotate(360deg); 
+}
+
+
+.Info {
+    background-color: #fff; 
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.title {
+    border-bottom: 2px solid coral; 
+    padding-bottom: 10px;
+}
+
+/* INFO */
+.Info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.Info li {
+    margin-bottom: 10px;
+    border-bottom: 2px dotted coral;
+}
+
+.Info .text {
+    color: black; 
+    cursor: pointer; 
+}
+
+/* Experienta profesionala */
+.year_comp {
+    font-weight: bold;
+}
+
+/* Abilitati */
+.procent {
+    background-color: #ccc; 
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden; 
+}
+
+.procent div {
+    height: 100%;
+    background-color: #4caf50; 
+}
+
+.weather {
+    margin-top: 20px;
+}
+
+
+/* Parte dreapta */
+.right {
+    flex: 1; 
+}
+
+.about {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.title2 {
+    border-bottom: 3px solid coral;
+    padding-bottom: 10px;
+}
+
+/* hobby-uri */
+.interest ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.interest li {
+    margin-bottom: 10px;
+}
+
+.icon {
+    margin-right: 5px;
+}
+.text p {
+    border-bottom: 2px dotted coral; 
+}
